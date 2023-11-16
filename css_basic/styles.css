@@ -25,4 +25,9 @@ footer{
 display: flex;
 background-position: inherit;
 background-color: rgb(94, 74, 77);
+justify-content: center;
+}
+table{
+    border: 1px solid black;
+
 }
