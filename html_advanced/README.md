@@ -1,5 +1,4 @@
 # PROJECT TITLE
-    **HOW TO CREATE A GOOD README FILE**
     ![image](dog.jpeg)
 ## TABLE OF CONTENTS
     - About
