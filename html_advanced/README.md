@@ -1,5 +1,5 @@
 # PROJECT TITLE
-    ![image](dog.jpeg)
+    ![Image](Figma%20logo.png)
 ## TABLE OF CONTENTS
     - About
     - Getting started
