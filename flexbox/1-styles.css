@@ -326,23 +326,24 @@
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
   }
-  .section-services {
+  .class {
+    section-services; 
+  }
+  .class {
+    section-works; 
+  }
+  .class{
+    section-about-us;
+  }
+  .class {
+  section-latest-news;
 
   }
-  .section-works {
-
+  .class {
+  section-testimonial; 
   }
-  .section-about-us {
-
-  }
-  .section-latest-news {
-
-  }
-  .section-testimonial {
-
-  }
-  .section-contact {
-    
+  .class {
+  section-contact; 
   }
   
   /* Section theming
