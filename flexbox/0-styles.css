@@ -185,7 +185,7 @@
     list-style: none;
    
   }
-  [class*='row'] {
+  .row {
     display: flex;
   }
   
