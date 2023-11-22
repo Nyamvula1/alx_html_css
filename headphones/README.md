@@ -1,2 +1,2 @@
 # PROJECT TITLE
-![IMG](logo_headphones.png)
+    ![Image](logo_headphones.png)
