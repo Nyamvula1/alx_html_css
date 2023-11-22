@@ -188,11 +188,10 @@
     display: flex;
   }
   .nav .nav-item + .nav-item{
-    margin: 0;
+    margin: var(--nav-item-margin);
     padding: 0;
     list-style: none;
     text-align: center;
-    display: flex;
   }
   
   .nav .nav-item {
@@ -200,6 +199,7 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
+
   }
   
   .nav .nav-link {
