@@ -200,6 +200,9 @@
     letter-spacing: var(--nav-item-letter-spacing);
     margin: var(--nav-item-margin);
   }
+  .nav .nav-item + .nav-item {
+
+  }
   
   .nav .nav-link {
     display: block;
