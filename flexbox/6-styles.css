@@ -183,16 +183,14 @@
   
   /* Navbar
       ============================= */
-  .nav .nav-item .nav-item{
-    display: flex;
-    margin: 0;  
-  }
-  .nav .nav-item {
-    margin: 0 0 0 2rem;
+  
+  
+  .nav {
+    margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    
+    display: flex;
   }
   
   .nav .nav-item {
@@ -200,6 +198,7 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
     margin: var(--nav-item-margin);
   }
   
