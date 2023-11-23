@@ -113,6 +113,9 @@ button:hover,
   .pentagone{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #141217;
+
   }
   .pentagone img{
     width: 100px;
