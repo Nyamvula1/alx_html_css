@@ -1,11 +1,39 @@
-:root {
-    --color-primary: #D73953;
-    --color-black:  #090909;
-    --color-white: #ffffff;
-    --color-grey: #a0a0a0;
-    --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
-  
-    --text-color: var(--color-black);
+body {
+    display: flex;
+    flex-direction: column;
 }
+.header-container {
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(images/headphones_hero_1.jpg);
+}
+.hero-piece{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 50vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
     
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+}
