@@ -114,12 +114,13 @@ button:hover,
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #141217;
+    background-color: none;
 
   }
   .pentagone img{
     width: 100px;
     height: 100px;
+
   }
   .sound{
     display: flex;
