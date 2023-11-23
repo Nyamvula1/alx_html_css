@@ -146,7 +146,27 @@ button:hover,
   }
   .button-form{
     margin-top: 5vh;
+    
   }
   .footer{
     border: 2px solid black;
+    flex-direction: row;
+    justify-content: flex-end;
   }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    background: #141217;
+    height: 30vh;
+    border: 2px solid black; 
+  }
+  .footer-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
+  
+
+  
