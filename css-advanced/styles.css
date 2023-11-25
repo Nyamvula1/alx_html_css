@@ -236,62 +236,75 @@ button{
 .faq{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    justify-content: space-between;
 }
 .header-faq{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid black; 
 }
-.body-faq{
+.body-1-faq{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 2px solid black; 
+    text-align: justify;
+    
+}
+.body-2-faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .h-faq{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border: 2px solid black;  
+    justify-content: center;  
 }
 .block{
-    border: 2px solid black; 
     text-align: justify;
 }
 .faq-1{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
 }
 .footer{
-    flex-direction: row;
-    justify-content: flex-end;
-    border: 2px solid black;
-  }
-  .footer-container{
+   background-color: black; 
+}
+.footer-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: #141217;
-    height: 20vh;
+    height: 8vh;
   }
+  .footer-logo{
+    background-color: black;
+    margin-top: 3vh;
+    padding-left: 10vh;
+  }
+  
   .footer-image{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     justify-content: space-evenly;
+    width: 30vh;
+    margin-top: 3vh;
+    padding-right: 5vh;
 
   }
   .footer-image img{
-    width: 50px;
-    height: 50px;
-    background-color: #141217;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
   }
   .copyright{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #141217;
+    
+  }
+  .copyright p{
+    color: #fff;
   }
