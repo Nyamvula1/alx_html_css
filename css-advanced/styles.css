@@ -48,7 +48,7 @@ li a{
     margin-top: 0px;
 }
 button{
-    background:purple;
+    background: blueviolet;
     border-radius: 20px;
     box-sizing: border-box;
     color: #FFFFFF;
@@ -87,7 +87,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(148, 2, 148);
+    background-color: blueviolet;
 }
 .image-5{
     display: flex;
@@ -110,7 +110,6 @@ button{
 .videos-list{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
 }
 .header-video{
     display: flex;
@@ -118,32 +117,29 @@ button{
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    border: 2px solid black;
 }
 
 .list{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     justify-content: space-evenly;
 }
 
 .diagonal-smile{
-    
     flex-direction: column;
     align-items: center;
     margin-top: 0vh
 }
 .diagonal-image{
-    border: 2px solid black;
     position: relative;
 }
 .sad-image{
-    border: 2px solid black;
     position: relative; 
 }
 .natural-image{
-    border: 2px solid black;
+    position: relative;  
+}
+.happy-image{
     position: relative;  
 }
 .play{
@@ -152,40 +148,41 @@ button{
     margin-top: 10vh;
 }
 .philip{
-    color: rgb(148, 2, 148);
+    color: blueviolet;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid black;
    
 }
+.philip-image{
+    width: 30vh;
+    height: 30vh;
+}
 .philip-name{
-    border: 2px solid black;
     display: flex;
     align-items: center;
+    font-size: 15px;
+    padding-right: 10px;
 }
 .rating{
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width: 20vh;
 }
 .sad-smile{
-    border: 2px solid black;
     flex-direction: column;
     align-items: center;
     margin-top: 0vh
 }
 
 .natural-smile{
-    border: 2px solid black;
     flex-direction: column;
     align-items: center;
     margin-top: 0vh
 }
 
 .happy-smile{
-    border: 2px solid black;
     flex-direction: column;
     align-items: center;
     margin-top: 0vh
